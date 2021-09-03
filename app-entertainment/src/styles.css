@@ -1,0 +1,82 @@
+
+body{
+   background: url(./assets/avatars/back.gif);
+   background-size: auto;
+   background-repeat: no-repeat;
+  
+
+}
+
+#avatar1 {
+   width: 20%;
+   border-radius: 10%;
+   margin-left: 200px;
+   margin-top: 40px;
+   transition: 2s;
+}
+#avatar1:hover {
+    transform: scale(1.2);
+    filter: brightness(20%);
+    filter: grayscale(80%);
+    filter: blur(2px);
+   
+}
+#avatar2 {
+   width: 20%;
+   border-radius: 10%;
+   margin-left: 230px;
+    transition: 2s;
+
+}
+#avatar2:hover {
+   transform: rotate(360deg);
+   transform: scale(1.2);
+   filter: brightness(20%);
+   filter: grayscale(80%);
+   filter: blur(2px);
+
+}
+#avatar3 {
+    width: 20%;
+   border-radius: 10%;
+   margin-left: 220px;
+    transition: 2s;
+
+}
+#avatar3:hover {
+   transform: rotate(360deg);
+   transform: scale(1.2);
+   filter: brightness(20%);
+   filter: grayscale(80%);
+   filter: blur(2px);
+
+}
+#avatar4{
+    width: 20%;
+    border-radius: 10%;
+    margin-left: 400px;
+    margin-top: 20px;
+     transition: 2s;
+}
+#avatar4:hover {
+   transform: rotate(360deg);
+   transform: scale(1.2);
+   filter: brightness(20%);
+   filter: grayscale(80%);
+   filter: blur(2px);
+
+}
+#avatar5 {
+    width: 20%;
+   border-radius: 10%;
+   margin-left: 500px;
+    transition: 2s;
+}
+#avatar5:hover {
+   transform: rotate(360deg);
+   transform: scale(1.2);
+   filter: brightness(20%);
+   filter: grayscale(80%);
+   filter: blur(2px);
+
+}
