@@ -1,82 +1,199 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 body{
-   background: url(./assets/avatars/back.gif);
-   background-size: auto;
-   background-repeat: no-repeat;
+    background: linear-gradient(-45deg, #160342, #01081d, #000000, #000000);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
   
 
 }
 
-#avatar1 {
-   width: 20%;
-   border-radius: 10%;
-   margin-left: 200px;
-   margin-top: 40px;
-   transition: 2s;
+.lds-facebook {
+   display: inline-block;
+   position: relative;
+   width: 80px;
+   height: 80px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
 }
-#avatar1:hover {
-    transform: scale(1.2);
-    filter: brightness(20%);
-    filter: grayscale(80%);
-    filter: blur(2px);
+
+.lds-facebook div {
+   display: inline-block;
+   position: absolute;
+   left: 8px;
+   width: 16px;
+   background: #fff;
+   animation: lds-facebook 2.2s cubic-bezier(0, 1.5, 0.5, 1);
+}
+
+.lds-facebook div:nth-child(1) {
+   left: 8px;
+   animation-delay: -0.24s;
+}
+
+.lds-facebook div:nth-child(2) {
+   left: 32px;
+   animation-delay: -0.12s;
+}
+
+.lds-facebook div:nth-child(3) {
+   left: 56px;
+   animation-delay: 0;
+}
+
+@keyframes lds-facebook {
+   0% {
+      top: 8px;
+      height: 64px;
+   }
+
+   50%,
+   100% {
+      top: 24px;
+      height: 32px;
+   }
+}
+
+
+@keyframes gradient {
+   0% {
+      background-position: 0% 50%;
+   }
+
+   50% {
+      background-position: 100% 50%;
+   }
+
+   100% {
+      background-position: 0% 50%;
+   }
+}
+
+
+
+
+
+
+.avatar1 {
+   width: 300px;
+   transition: 2s;
+   border-radius: 5%;
+}
+.avatar1:hover {
+   transform: scale(1.2);
+   filter: brightness(20%);
+   filter: grayscale(80%);
+   filter: blur(2px);
+}
+.avatar2 {
+   width: 300px;
+   transition: 2s;
+   border-radius: 5%;
+}
+.avatar2:hover {
+   transform: scale(1.2);
+   filter: brightness(20%);
+   filter: grayscale(80%);
+   filter: blur(2px);
+}
+
+.avatar3 {
+   width: 300px;
+   transition: 2s;
+   border-radius: 5%;
+}
+.avatar3:hover {
+   transform: scale(1.2);
+   filter: brightness(20%);
+   filter: grayscale(80%);
+   filter: blur(2px);
+}
+.avatar4 {
+   width: 300px;
+   transition: 2s;
+   border-radius: 5%;
+}
+.avatar4:hover {
+   transform: scale(1.2);
+   filter: brightness(20%);
+   filter: grayscale(80%);
+   filter: blur(2px);
+}
+.avatar5 {
+   width: 300px;
+   transition: 2s;
+   border-radius: 5%;
+}
+.avatar5:hover {
+   transform: scale(1.2); 
+   filter: brightness(20%);
+   filter: grayscale(80%);
+   filter: blur(2px);
+}
+
+.name1{
+   margin-left: 850px;
+   margin-top: 40px;
+   
+}  
+.name2 {
+   margin-left: 200px;
+   margin-top:-450px;
+}
+.name3 {
+   margin-left: 200px;
+}
+.name4 {
+   margin-left: 1500px;
+   margin-top:-890px;
+}
+
+.name5 {
+   margin-left: 850px;
+}
+
+.avatars {
+   
    
 }
-#avatar2 {
-   width: 20%;
-   border-radius: 10%;
-   margin-left: 230px;
-    transition: 2s;
+
+.txt1{
+   color: white;
+   font-family: 'Press Start 2P',
+   cursive;
+   font-size: 60px;
+   
 
 }
-#avatar2:hover {
-   transform: rotate(360deg);
-   transform: scale(1.2);
-   filter: brightness(20%);
-   filter: grayscale(80%);
-   filter: blur(2px);
+.txt2 {
+   color: white;
+   font-family: 'Press Start 2P',
+   cursive;
+   font-size: 60px;
 
 }
-#avatar3 {
-    width: 20%;
-   border-radius: 10%;
-   margin-left: 220px;
-    transition: 2s;
+.txt3 {
+   color: white;
+   font-family: 'Press Start 2P',
+   cursive;
+   font-size: 60px;
 
 }
-#avatar3:hover {
-   transform: rotate(360deg);
-   transform: scale(1.2);
-   filter: brightness(20%);
-   filter: grayscale(80%);
-   filter: blur(2px);
+.txt4 {
+   color: white;
+   font-family: 'Press Start 2P',
+   cursive;
+   font-size: 60px;
 
 }
-#avatar4{
-    width: 20%;
-    border-radius: 10%;
-    margin-left: 400px;
-    margin-top: 20px;
-     transition: 2s;
-}
-#avatar4:hover {
-   transform: rotate(360deg);
-   transform: scale(1.2);
-   filter: brightness(20%);
-   filter: grayscale(80%);
-   filter: blur(2px);
-
-}
-#avatar5 {
-    width: 20%;
-   border-radius: 10%;
-   margin-left: 500px;
-    transition: 2s;
-}
-#avatar5:hover {
-   transform: rotate(360deg);
-   transform: scale(1.2);
-   filter: brightness(20%);
-   filter: grayscale(80%);
-   filter: blur(2px);
+.txt5 {
+   color: white;
+   font-family: 'Press Start 2P',
+   cursive;
+   font-size: 60px;
+   
 
 }
